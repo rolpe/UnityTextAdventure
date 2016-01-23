@@ -83,7 +83,7 @@ public class TextController : MonoBehaviour {
 		else if (Input.GetKeyDown(KeyCode.L)) {myState = States.lock_1;}
 	}
 	void corridor_0() {
-		text.text = "You are in a corridor!\n\n" +
+		text.text = "You are free!\n\n" +
 					"Press P to Play again";
 		if (Input.GetKeyDown(KeyCode.P)) {myState = States.cell;}
 	}
